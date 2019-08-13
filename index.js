@@ -36,4 +36,4 @@ const currentLine = (x) => {
     }
   return "The line is currently: " + line.join(', ');
     }
-};
+}
