@@ -3,10 +3,12 @@ Build a function that a new customer will use when entering the deli.
 The function, `takeANumber`, should accept two paramaters: the current line of people, along with the new person's name. 
 The function should return a welcome message including the new person's position in line, such as `"Welcome, Ada. You are number 1 in line."`. */
  
-var ticketNumber = [];
+var ticketNumber = [0];
 
 const takeANumber = (ticketNumber) => {
-  ticketNumber.push(name)
+  ticketNumber++
+  for ()
+  // ticketNumber.push(name)
   return `Welcome. You are ticket number ${ticketNumber.length}.`
 };
 // console.log(takeANumber(katzDeliLine, 'Sarah'))
