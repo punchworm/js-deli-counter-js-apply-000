@@ -7,7 +7,7 @@ const takeANumber = (katzDeliLine, name) => {
   katzDeliLine.push(name)
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 };
-console.log(takeANumber(katzDeliLine, Sarah))
+console.log(takeANumber(katzDeliLine, 'Sarah'))
 
 // Build a function `nowServing`. 
 // This function should accept the current line of people (`katzDeliLine`) and return the first person in line and then remove that individual from the line. 
