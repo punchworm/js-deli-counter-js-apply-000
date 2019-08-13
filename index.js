@@ -9,7 +9,7 @@ const takeANumber = (katzDeliLine, name) => {
   katzDeliLine.push(name)
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 };
-// console.log(takeANumber(katzDeliLine, 'Sarah'))
+console.log(takeANumber(katzDeliLine, 'Sarah'))
 
 /* 
 Build a function `nowServing`. 
