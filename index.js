@@ -15,8 +15,8 @@ const takeANumber = (katzDeliLine, name) => {
 
 const nowServing = (katzDeliLine) => {
   if (katzDeliLine.length === 0) {
-    return "There is nobody waiting to be served!"; }
-  else {
+    return "There is nobody waiting to be served!"; 
+ } else {
     return `Currently serving ${katzDeliLine.shift(0)}.`;
   }
 };
@@ -34,7 +34,6 @@ const currentLine = (x) => {
     for (var i=0; i<x.length; i++) {
       line.push(i+1 + ". " + x[i]);
     }
-    console.log("The line is currently: " + line)
   return "The line is currently: " + line.join(', ');
     }
 };
