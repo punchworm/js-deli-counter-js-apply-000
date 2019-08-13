@@ -6,6 +6,7 @@ The function should return a welcome message including the new person's position
 var ticketNumber = [0];
 
 const takeANumber = (ticketNumber) => {
+  
   ticketNumber++
   for ()
   // ticketNumber.push(name)
